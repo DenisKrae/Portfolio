@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Denis Krämer – Portfolio</title>
+  <meta name="description" content="Web‑Entwickler · Projekte, Skills & Kontakt" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand"><div class="logo" aria-hidden="true"></div> Denis Krämer</div>
+      <div class="actions">
+        <button class="btn" id="themeBtn" aria-label="Theme umschalten">🌓 Theme</button>
+        <a class="btn" href="https://github.com/DenisKrae" target="_blank" rel="noopener">🐙 GitHub</a>
+        <a class="btn" href="mailto:DennisKrae1984@gmail.com">✉️ Kontakt</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Hero -->
+    <section class="hero">
+      <div>
+        <span class="pill">Web‑Entwickler • HTML · CSS · JS · PHP</span>
+        <h1>Hi, ich bin Denis <br>– ich baue schnelle, saubere Frontends und lerne jeden Tag dazu.</h1>
+        <p>Fachinformatiker (IHK). Praxis mit Drupal‑Modulen, API‑Anbindungen und viel Liebe zu Details. Außerdem Automatisierungen mit Python und KI‑gestützte Workflows.</p>
+        <div class="badges">
+          <span class="tag">Berlin</span>
+          <span class="tag">Open Source</span>
+          <span class="tag">SEO & Performance</span>
+          <span class="tag">Accessibility</span>
+        </div>
+        <div class="kpis">
+          <div class="kpi"><strong>7+ Jahre</strong><small>Design & Automatisierung</small></div>
+          <div class="kpi"><strong>10+ Repos</strong><small>auf GitHub aktiv</small></div>
+          <div class="kpi"><strong>100%</strong><small>Mobile‑First</small></div>
+        </div>
+      </div>
+      <div>
+        <div class="card">
+          <h3>Jetzt verfügbar</h3>
+          <p>Ich suche eine Rolle als Junior Webentwickler (Teilzeit/Vollzeit). Fokus: Frontend & CMS, offen für Programmierer Einstieg.</p>
+          <div class="links">
+            <a class="btn" href="#projekte">🚀 Projekte</a>
+            <a class="btn" href="#lebenslauf">📄 Lebenslauf</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projekte -->
+    <section id="projekte">
+      <div class="section-head">
+        <h2>Ausgewählte Projekte</h2>
+        <a class="btn" href="https://github.com/DenisKrae?tab=repositories" target="_blank" rel="noopener">Alle Repos →</a>
+      </div>
+
+      <div class="grid cols-3">
+        <!-- Project Card Template: duplicate and adjust -->
+        <article class="card">
+          <div class="pill" style="margin-bottom:.6rem">HTML · CSS</div>
+          <h3>UMA‑Page</h3>
+          <p>Landing‑Page‑Experiment mit Icons, responsivem Grid und sauberen Komponenten.</p>
+          <div class="links">
+            <a class="btn" href="https://deniskrae.github.io/UMA-Page/" target="_blank" rel="noopener">Live‑Demo</a>
+            <a class="btn" href="https://github.com/DenisKrae/UMA-Page" target="_blank" rel="noopener">Code</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="pill" style="margin-bottom:.6rem">Drupal 10 · PHP</div>
+          <h3>Maintenance‑Dashboard Modul</h3>
+          <p>Eigenes Modul: holt Update‑Stände mehrerer Projekte per API und zeigt sie zentral an.</p>
+          
+        </article>
+
+        <article class="card">
+          <div class="pill" style="margin-bottom:.6rem">Python · Automation</div>
+          <h3>KI‑gestützte Design‑Pipeline</h3>
+          <p>Automatisierte Generierung & Export von Assets (Midjourney → Affinity → Upload), inkl. SEO‑Check.</p>
+          
+        </article>
+
+        <!-- Add more project cards as needed -->
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <div class="section-head"><h2>Skills</h2></div>
+      <div class="grid cols-3">
+        <div class="card">
+          <h3>Web</h3>
+          <p>HTML5 · CSS3/SCSS · JavaScript · Responsive · Performance · SEO · Accessibility</p>
+        </div>
+        <div class="card">
+          <h3>Backend & CMS</h3>
+          <p>PHP · Drupal 10 (Module) · REST APIs · Basis: SQL</p>
+        </div>
+        <div class="card">
+          <h3>Tools</h3>
+          <p>Git/GitHub · VS Code · Affinity Designer · Python (Automation) · Midjourney · ChatGPT</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lebenslauf / Timeline -->
+    <section id="lebenslauf">
+      <div class="section-head"><h2>Berufserfahrung & Ausbildung</h2></div>
+      <div class="grid cols-2">
+        <div class="card">
+          <h3>Berufspraxis</h3>
+          <div class="timeline">
+            <div class="t-item"><strong>seit 2018 – Designer (selbstständig)</strong><br><small>Automatisierungen, SEO, Affinity, KI‑Workflows</small></div>
+            <div class="t-item"><strong>05/2023 – 03/2024 – Web‑Entwickler (Praktikum)</strong><br><small>Drupal 10, APIs, Modul‑Entwicklung</small></div>
+            <div class="t-item"><strong>09/2014 – 10/2021 – Filialleiter</strong><br><small>Teamleitung (5–20), Controlling, Personalplanung</small></div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Bildung & Kurse</h3>
+          <div class="timeline">
+            <div class="t-item"><strong>Fachinformatiker Anwendungsentwicklung (IHK)</strong><br><small>2023</small></div>
+            <div class="t-item"><strong>Fachabitur</strong><br><small>2011</small></div>
+            <div class="t-item"><strong>Weiterbildung: PHP/HTML/CSS</strong><br><small>2025 (laufend)</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section id="kontakt">
+      <div class="section-head"><h2>Kontakt</h2></div>
+      <div class="grid cols-2">
+        <div class="card">
+          <h3>Schreib mir</h3>
+          <p>Am besten per E‑Mail oder GitHub Issue. Ich antworte schnell und direkt.</p>
+          <div class="links">
+            <a class="btn" href="mailto:DennisKrae1984@gmail.com">✉️ E‑Mail</a>
+            <a class="btn" href="https://github.com/DenisKrae" target="_blank" rel="noopener">🐙 GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Mini‑Impressum</h3>
+          <p>Berlin · Freiberufler · Projekte & Kollaborationen willkommen.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <div class="pill">© <span id="y"></span> Denis Krämer · gebaut mit ♥ in HTML & CSS</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
